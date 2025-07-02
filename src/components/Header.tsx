@@ -16,7 +16,7 @@ export default function Header() {
             <div className="w-10 h-10 gradient-terracotta rounded-full flex items-center justify-center shadow-lg">
               <span className="text-cream-50 font-bold text-lg">HH</span>
             </div>
-            <span className="font-playfair text-2xl font-bold text-earth-800 text-shadow">Haryana Handlooms</span>
+            <span className="font-playfair text-2xl font-bold text-earth-800 text-shadow">Haryana Handicrafts</span>
           </Link>
 
           {/* Desktop Navigation */}

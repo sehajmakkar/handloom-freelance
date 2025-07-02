@@ -152,7 +152,7 @@ export default function Home() {
             Ready to Start Your Journey?
           </h2>
           <p className="text-terracotta-100 text-xl mb-10 max-w-3xl mx-auto leading-relaxed">
-            Whether you're looking for a single special piece or planning a bulk order, we're here to help you discover
+            Whether you&apos;re looking for a single special piece or planning a bulk order, we&apos;re here to help you discover
             the perfect handcrafted treasures.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">

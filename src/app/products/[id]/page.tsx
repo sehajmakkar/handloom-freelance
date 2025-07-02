@@ -73,7 +73,7 @@ export default function ProductDetailPage() {
   const [activeTab, setActiveTab] = useState("features")
 
   const handleWhatsAppBulkInquiry = () => {
-    const message = `Hi! I'm interested in bulk ordering the ${product.name}. 
+    const message = `Hi! I am interested in bulk ordering the ${product.name}. 
     
 Product Details:
 - Name: ${product.name}
@@ -423,9 +423,9 @@ Could you please help me with more information?`
                   </div>
                   <div className="md:col-span-2">
                     <p className="text-earth-700 leading-relaxed text-lg">
-                      "I learned the art of silk weaving from my father, who learned it from his father. Each saree I
-                      create carries forward our family's legacy of craftsmanship. Every thread is woven with care,
-                      every pattern tells a story of our rich cultural heritage."
+                      &quot;I learned the art of silk weaving from my father, who learned it from his father. Each saree I
+                      create carries forward our family&apos;s legacy of craftsmanship. Every thread is woven with care,
+                      every pattern tells a story of our rich cultural heritage.&quot;
                     </p>
                     <p className="text-earth-600 mt-4 italic">— {product.artisan.name}</p>
                   </div>

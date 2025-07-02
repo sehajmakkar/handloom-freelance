@@ -8,8 +8,8 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="font-playfair text-4xl lg:text-6xl font-bold text-earth-900 mb-6">Get in Touch</h1>
           <p className="text-xl text-earth-600 max-w-3xl mx-auto">
-            We'd love to hear from you. Whether you have questions about our products, need bulk pricing, or want to
-            partner with us, we're here to help.
+            We&apos;d love to hear from you. Whether you have questions about our products, need bulk pricing, or want to
+            partner with us, we&apos;re here to help.
           </p>
         </div>
       </section>
@@ -240,7 +240,7 @@ export default function ContactPage() {
                   What is your minimum order quantity for bulk orders?
                 </h3>
                 <p className="text-earth-600 text-sm">
-                  Our minimum order quantity varies by product. Generally, it's 50 pieces for textiles and 25 pieces for
+                  Our minimum order quantity varies by product. Generally, it&apos;s 50 pieces for textiles and 25 pieces for
                   handicrafts. Contact us for specific requirements.
                 </p>
               </div>
@@ -248,7 +248,7 @@ export default function ContactPage() {
               <div>
                 <h3 className="font-semibold text-earth-900 mb-2">Do you ship internationally?</h3>
                 <p className="text-earth-600 text-sm">
-                  Yes, we ship worldwide. Shipping costs and delivery times vary by location. We'll provide detailed
+                  Yes, we ship worldwide. Shipping costs and delivery times vary by location. We&apos;ll provide detailed
                   shipping information with your quote.
                 </p>
               </div>
@@ -267,7 +267,7 @@ export default function ContactPage() {
                 <h3 className="font-semibold text-earth-900 mb-2">What is your return policy?</h3>
                 <p className="text-earth-600 text-sm">
                   We offer a 30-day return policy for retail orders. Items must be in original condition. Custom orders
-                  are non-returnable unless there's a manufacturing defect.
+                  are non-returnable unless there&apos;s a manufacturing defect.
                 </p>
               </div>
 

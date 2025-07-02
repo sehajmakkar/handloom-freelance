@@ -11,7 +11,7 @@ export default function AboutPage() {
           <div className="text-center mb-16">
             <h1 className="font-playfair text-4xl lg:text-6xl font-bold text-earth-900 mb-6">Our Story</h1>
             <p className="text-xl text-earth-600 max-w-3xl mx-auto leading-relaxed">
-              For over three generations, we've been preserving the ancient art of handloom weaving and traditional
+              For over three generations, we&apos;ve been preserving the ancient art of handloom weaving and traditional
               handicrafts, connecting skilled artisans with the world.
             </p>
           </div>
@@ -29,7 +29,7 @@ export default function AboutPage() {
               <div className="space-y-6 text-earth-700">
                 <p className="leading-relaxed">
                   Founded in 1975 by Master Craftsman Arjun Sharma, Artisan Threads began as a small workshop in the
-                  heart of India's textile region. What started as a passion project to preserve traditional weaving
+                  heart of India&apos;s textile region. What started as a passion project to preserve traditional weaving
                   techniques has grown into a global platform connecting hundreds of skilled artisans with customers
                   worldwide.
                 </p>
@@ -42,7 +42,7 @@ export default function AboutPage() {
                 <p className="leading-relaxed">
                   Today, we work with over 500 artisan families across India, providing them with fair wages,
                   sustainable livelihoods, and a global platform to showcase their incredible talents. Our commitment
-                  extends beyond business – we're preserving cultural heritage for future generations.
+                  extends beyond business – we&apos;re preserving cultural heritage for future generations.
                 </p>
               </div>
             </div>
@@ -238,7 +238,7 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-playfair text-3xl lg:text-4xl font-bold text-cream-50 mb-4">Join Our Journey</h2>
           <p className="text-terracotta-100 text-lg mb-8 max-w-2xl mx-auto">
-            When you choose Artisan Threads, you're not just buying a product – you're supporting traditional crafts,
+            When you choose Artisan Threads, you&apos;re not just buying a product – you&apos;re supporting traditional crafts,
             empowering artisan communities, and preserving cultural heritage.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
