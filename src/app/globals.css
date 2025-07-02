@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-cream-50: #fefcf8;
+    --color-cream-100: #fdf8f0;
+    --color-cream-200: #faf2e4;
+    --color-earth-100: #f5f1eb;
+    --color-earth-200: #e8ddd0;
+    --color-earth-300: #d4c4a8;
+    --color-earth-400: #b8a082;
+    --color-earth-500: #9d7c5c;
+    --color-earth-600: #8b6b4a;
+    --color-earth-700: #6d5238;
+    --color-earth-800: #4a3626;
+    --color-earth-900: #2d1f15;
+    --color-terracotta-400: #e68b5f;
+    --color-terracotta-500: #d4704f;
+    --color-terracotta-600: #c4593a;
+    --color-sage-400: #7ba87b;
+    --color-sage-500: #5a8a5a;
+    --color-sage-600: #456b45;
+  }
+}
+
+.font-playfair {
+  font-family: var(--font-playfair);
+}
+
+.font-inter {
+  font-family: var(--font-inter);
+}
+
+.bg-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23d4c4a8' fill-opacity='0.15'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.bg-weave-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23b8a082' fill-opacity='0.1'%3E%3Cpath d='M0 0h20v20H0V0zm10 17a7 7 0 1 0 0-14 7 7 0 0 0 0 14zm10 0a7 7 0 1 0 0-14 7 7 0 0 0 0 14zM0 20h20v20H0V20zm10 17a7 7 0 1 0 0-14 7 7 0 0 0 0 14zm10 0a7 7 0 1 0 0-14 7 7 0 0 0 0 14z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.bg-mandala-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23d4704f' fill-opacity='0.08'%3E%3Cpath d='M40 40c0-11.046-8.954-20-20-20s-20 8.954-20 20 8.954 20 20 20 20-8.954 20-20zm20 0c0-11.046-8.954-20-20-20s-20 8.954-20 20 8.954 20 20 20 20-8.954 20-20z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.gradient-warm {
+  background: linear-gradient(135deg, #fdf8f0 0%, #f5f1eb 25%, #e8ddd0 50%, #d4c4a8 100%);
+}
+
+.gradient-terracotta {
+  background: linear-gradient(135deg, #fbeae3 0%, #f6d1c1 25%, #efb091 50%, #e68b5f 75%, #d4704f 100%);
+}
+
+.gradient-sage {
+  background: linear-gradient(135deg, #f6f8f6 0%, #e8f0e8 25%, #d1e1d1 50%, #a8c8a8 75%, #7ba87b 100%);
+}
+
+.text-shadow {
+  text-shadow: 0 2px 4px rgba(45, 31, 21, 0.1);
+}
+
+.card-shadow {
+  box-shadow: 0 4px 6px -1px rgba(45, 31, 21, 0.1), 0 2px 4px -1px rgba(45, 31, 21, 0.06);
+}
+
+.card-shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(45, 31, 21, 0.1), 0 4px 6px -2px rgba(45, 31, 21, 0.05);
+}
+
+.border-decorative {
+  border-image: linear-gradient(45deg, #d4704f, #7ba87b, #cc8e35) 1;
+}
