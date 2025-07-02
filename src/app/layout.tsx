@@ -18,7 +18,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Artisan Threads - Handloom & Handicrafts",
+  title: "Haryana Handicrafts - Handloom & Handicrafts",
   description:
     "Discover authentic handloom textiles and handicrafts. Premium quality products for retail and bulk orders.",
   keywords: "handloom, handicrafts, textiles, artisan, traditional crafts, bulk orders",
